@@ -17,8 +17,12 @@
   height: 5rem;
 }
 
-.review_h{
-  margin: 2rem 0rem;
+.review_m{
+  margin: 1rem 0rem;
+}
+
+.title_icon {
+  color: rgb(174, 171, 171);
 }
 
 #myform fieldset{
@@ -48,5 +52,5 @@
 }
 
 .circle{
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }

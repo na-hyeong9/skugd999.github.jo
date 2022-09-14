@@ -10,7 +10,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css%22%3E">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR&display=swap"
+        rel="stylesheet">
     <title>Document</title>
+    <style>
+        body {
+            font-family: 'Nanum Gothic', sans-serif;
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+    </style>
 </head>
 
 <body>
@@ -90,7 +100,7 @@
                             allowfullscreen></iframe>
                     </div>
                     <div class="carousel-item">
-                        <img src="./images/1_20220914_182845454.png" class="d-block w-100 img-fluid"alt="">
+                        <img src="./images/1_20220914_182845454.png" class="d-block w-100 img-fluid" alt="">
                     </div>
                     <div class="carousel-item">
                         <img src="./images/2_20220914_182915843.png" class="d-block w-100 img-fluid" alt="">
@@ -112,15 +122,17 @@
                 <p class="text-white-50 px-5 mb-2 ">영화 The Shawshank Redemption 1995</p>
             </div>
             <div class="row  d-flex align-items-center bg-light border border-dark border border-5 circle p-2">
-                <div class="col-lg-4 d-flex p-5">
-                    <img src="./images/movie1.jpg" class="img-fluid circle" style="height: 30rem;" alt="">
+                <div class="col-lg-4 col-md-6 my-2 p-2 d-flex justify-content-center">
+                    <div class="p-2 bd-highlight"><img src="./images/movie1.jpg" class="circle img-fluid"
+                            style="height: 30rem;" alt="">
+                    </div>
                 </div>
-                <div class="col-lg-8 px-5">
+                <div class="col-lg-8 col-md-5 px-5">
                     <div>
                         <h5 class="fw-bolder py-1 border-bottom">기본정보</h5>
                     </div>
-                    <div class="row p-1">
-                        <div class="col-lg-2 fw-bolder">
+                    <div class="row">
+                        <div class="col-lg-2 col-sm-3 small fw-bolder">
                             <p>개봉</p>
                             <p>평점</p>
                             <p>등급</p>
@@ -129,7 +141,7 @@
                             <p>배급</p>
                             <p>러닝타임</p>
                         </div>
-                        <div class="col-lg-10">
+                        <div class="col-lg-4 col-sm-6 small ">
                             <p>1995.01.28.</p>
                             <p>⭐9.88</p>
                             <p>15세 관람가</p>
@@ -150,34 +162,41 @@
                     <h5 class="fw-bolder border-bottom">감독/출현</h5>
                 </div>
                 <div class="row row-cols-1 row-cols-md-2 g-4 px-5 mb-3">
-                    <div class="card mx-2" style="width: 10rem; height: auto;">
-                        <img src="./images/20220914_180056.png" class="card-img-top img-fluid my-2 " style="height: 10rem;"alt="...">
+                    <div class="card m-2" style="width: 10rem; height: auto;">
+                        <img src="./images/20220914_180056.png" class="card-img-top img-fluid my-2 "
+                            style="height: 10rem;" alt="...">
                         <div class="card-body">
                             <p class="card-text">프랭크 다라본트</p>
                             <p>감독</p>
                         </div>
                     </div>
-                    <div class="card mx-2" style="width: 10rem; height: auto;">
-                        <img src="./images/KakaoTalk_20220914_180428786.png" class="card-img-top img-fluid my-2" style="height: 10rem;"alt="...">
+                    <div class="card m-2" style="width: 10rem; height: auto;">
+                        <img src="./images/KakaoTalk_20220914_180428786.png" class="card-img-top img-fluid my-2"
+                            style="height: 10rem;" alt="...">
                         <div class="card-body">
-                            <p class="card-text">프랭크 다라본트</p>
-                            <p>감독</p>
+                            <p class="card-text">팀 로빈스</p>
+                            <p>앤디 듀프레인 역</p>
                         </div>
                     </div>
-                    <div class="card mx-2" style="width: 10rem; height: auto;">
-                        <img src="./images/KakaoTalk_20220914_180559219.png" class="card-img-top img-fluid my-2" style="height: 10rem;"alt="...">
+                    <div class="card m-2" style="width: 10rem; height: auto;">
+                        <img src="./images/KakaoTalk_20220914_180559219.png" class="card-img-top img-fluid my-2"
+                            style="height: 10rem;" alt="...">
                         <div class="card-body">
-                            <p class="card-text">프랭크 다라본트</p>
-                            <p>감독</p>
+                            <p class="card-text">모건 프리먼</p>
+                            <p> 엘리스 보이드 레드 레딩 역</p>
                         </div>
                     </div>
                 </div>
                 <div class="p-5">
                     <div class="d-flex justify-content-between bd-highlight">
-                        <div class="p-2 bd-highlight"><h2 class="border-bottom">평점</h2></div>
-                        <div class="p-2 bd-highlight"><button type="button" class="btn btn-primary">리뷰 쓰기</button></span></div>
-                      </div>
-                    <div >
+                        <div class="p-2 bd-highlight">
+                            <h2 class="border-bottom">평점</h2>
+                        </div>
+                        <div class="p-2 bd-highlight"><button type="button" class="btn btn-light"><a class="a"
+                                    href="file:///C:/Users/HOME/Downloads/PJT_WEB_02/04_form.html">리뷰 쓰기</a>
+                            </button></span></div>
+                    </div>
+                    <div>
                         <i class="bi bi-star-fill text-" style="color: rgb(255, 238, 0);"></i>
                         <i class="bi bi-star-fill text-" style="color: rgb(255, 238, 0);"></i>
                         <i class="bi bi-star-fill text-" style="color: rgb(255, 238, 0);"></i>
@@ -200,7 +219,7 @@
                         <p class="text-secondary border-bottom py-2">영화광 | 2013.06.17 08:25</p>
                     </div>
                 </div>
-            
+
             </div>
         </div>
     </div>
